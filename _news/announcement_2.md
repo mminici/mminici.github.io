@@ -4,4 +4,4 @@ date: 2022-11-01
 inline: true
 ---
 
-Cascade-based Echo Chamber Detection accepted at CIKM'2022
+Cascade-based Echo Chamber Detection accepted at CIKM 2022
