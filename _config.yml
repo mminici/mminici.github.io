@@ -113,9 +113,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Never talk to strangers, Raising social-awareness on AI
+blog_name: Never talk to strangers
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: I'll share recent publications and ideas here.
+blog_description: Raising social-awareness on AI
 permalink: /blog/:year/:title/
 
 # Pagination
