@@ -3,81 +3,82 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+
+@inproceedings{minici2022cascade,
+  title={Cascade-based echo chamber detection},
+  author={Minici, Marco and Cinus, Federico and Monti, Corrado and Bonchi, Francesco and Manco, Giuseppe},
+  booktitle={Proceedings of the 31st ACM International Conference on Information \& Knowledge Management},
+  pages={1511--1520},
+  year={2022},
+  website = {https://dl.acm.org/doi/10.1145/3511808.3557253},
+  pdf = {https://dl.acm.org/doi/pdf/10.1145/3511808.3557253},
+  selected={true},
+  image = {papers/ecd_favicon.png},
+  notes = {Oral Presentation},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+  abstract = { Despite echo chambers in social media have been under considerable scrutiny, general models for their detection and analysis are missing. In this work, we aim to fill this gap by proposing a probabilistic generative model that explains social media footprints---i.e., social network structure and propagations of information---through a set of latent communities, characterized by a degree of echo-chamber behavior and by an opinion polarity. Specifically, echo chambers are modeled as communities that are permeable to pieces of information with similar ideological polarity, and impermeable to information of opposed leaning: this allows discriminating echo chambers from communities that lack a clear ideological alignment. To learn the model parameters we propose a scalable, stochastic adaptation of the Generalized Expectation Maximization algorithm, that optimizes the joint likelihood of observing social connections and information propagation. Experiments on synthetic data show that our algorithm is able to correctly reconstruct ground-truth latent communities with their degree of echo-chamber behavior and opinion polarity. Experiments on real-world data about polarized social and political debates, such as the Brexit referendum or the COVID-19 vaccine campaign, confirm the effectiveness of our proposal in detecting echo chambers. Finally, we show how our model can improve accuracy in auxiliary predictive tasks, such as stance detection and prediction of future propagations.
+  }
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+
+@inproceedings{cinus2022effect,
+  title={The effect of people recommenders on echo chambers and polarization},
+  author={Cinus, Federico and Minici, Marco and Monti, Corrado and Bonchi, Francesco},
+  booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
+  volume={16},
+  pages={90--101},
+  year={2022},
+  website = {https://ojs.aaai.org/index.php/ICWSM/article/view/19275},
+  pdf = {https://ojs.aaai.org/index.php/ICWSM/article/view/19275/19047},
+  selected={true},
+  image = {papers/prod_favicon.png},
+  notes = {Oral Presentation},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  abstract = {The effects of social media on critical issues, such as polarization and misinformation, are under scrutiny due to the disruptive consequences that these phenomena can have on our societies. Among the algorithms routinely used by social media platforms, people-recommender systems are of special interest, as they directly contribute to the evolution of the socialnetwork structure, affecting the information and the opinions users are exposed to. In this paper, we propose a framework to assess the effect of people recommenders on the evolution of opinions. Our proposal is based on Monte Carlo simulations combining link recommendation and opinion-dynamics models. In order to control initial conditions, we define a random network model to generate graphs with opinions, withtunable amounts of modularity and homophily. We join these elements into a methodology to study the effects of the recommender  system  on  echo  chambers  and  polarization.  We also show how to use our framework to measure, by means of simulations, the impact of different intervention strategies. Our  thorough  experimentation  shows  that  people  recommenders  can  in  fact  lead  to  a  significant  increase  in  echo chambers. However, this happens only if there is considerable initial homophily in the network. Also, we find that if the network already contains echo chambers, the effect of the recommendation algorithm is negligible. Such findings are robust to two very different opinion dynamics models, a bounded confidence model and an epistemological model.
+  }
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@inproceedings{minici2022learning,
+  title={Learning and Explanation of Extreme Multi-label Deep Classification Models for Media Content},
+  author={Minici, Marco and Pisani, Francesco Sergio and Guarascio, Massimo and De Francesco, Erika and Lambardi, Pasquale},
+  booktitle={International Symposium on Methodologies for Intelligent Systems},
+  pages={138--148},
+  year={2022},
+  organization={Springer},
+  website = {https://link.springer.com/chapter/10.1007/978-3-031-16564-1_14},
+  selected={true},
+  image = {papers/ismis_favicon.png},
+  notes = {Oral Presentation},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  abstract = {Providing rich and accurate metadata for indexing media content is a crucial problem for all the companies offering streaming entertainment services. These metadata are typically used to improve the result of search engines and to feed recommendation algorithms in order to yield recommendation lists matching user interests. In particular, the problem of labeling multimedia content with informative tags (able to accurately describe the topics associated with such content) is a relevant issue. Indeed, the labeling procedure is time-consuming and susceptible to errors process as it is usually performed by domain experts in a fully manual fashion. Recently, the adoption of Machine Learning based techniques to tackle this problem has been investigated but the lack of clean and labeled training data leads to the yield of weak predictive models. To address all these issues, in this work we define a Deep Learning based framework for semi-automatic multi-label classification integrating model prediction explanation tools. In particular, Model Explanation techniques allow for supporting the operator to perform labeling of the contents. A preliminary experimentation conducted on a real dataset demonstrates the quality of the proposed solution.
+  }
 }
+
+@inproceedings{caroprese2021unbiasing,
+  title={Unbiasing Collaborative Filtering for Popularity-Aware Recommendation (Discussion Paper)},
+  author={Caroprese, Luciano and Manco, Giuseppe and Minici, Marco and Pisani, Francesco Sergio and Ritacco, Ettore},
+  booktitle={SEBD},
+  year={2021},
+  pdf = {https://ceur-ws.org/Vol-2994/paper51.pdf},
+  selected={false},
+  image = {papers/rvae_favicon.png},
+  bibtex_show={true},
+  abstract = {We analyze the behavior of recommender systems relative to the popularity of the items to recommend. Our findings show that most popular ranking-based recommenders are biased towards popular items, thus affecting the quality of recommendation. Based on these observations, we propose a new deep learning architecture with an improved learning strategy that significantly improves the performance of such recommenders on low-popular items. The proposed technique is based on two main aspects: resampling of negatives and ensembling of multiple instances of the algorithm. Experimental results on traditional benchmark datasets show that the proposed approach substantially improves the recommendation ability by balancing accurate contributions almost independently from the popularity of the items to recommend.
+  }
+}
+
+@inproceedings{minici2022towards,
+  title={Towards Extreme Multi-Label Classification of Multimedia Content (Discussion Paper)},
+  author={Minici, Marco and Pisani, Francesco Sergio and Guarascio, Massimo and Manco, Giuseppe},
+  booktitle={SEBD},
+  year={2022},
+  pdf = {https://ceur-ws.org/Vol-3194/paper44.pdf},
+  selected={false},
+  bibtex_show={true},
+  abstract = {Providing rich and accurate metadata for indexing media content represents a major issue for enterprises offering streaming entertainment services. Metadata information are usually exploited to boost the search capabilities for relevant contents and as such it can be used by recommendation algorithms for yielding recommendation lists matching user interests. In this context, we investigate the problem of associating suitable labels (or tag) to multimedia contents, that can accurately describe the topics associated with such contents. This task is usually performed by domain experts in a fully manual fashion that makes the overall process time-consuming and susceptible to errors. In this work we propose a Deep Learning based framework for semi-automatic, multi-label and semi-supervised classification. By integrating different data types (e.g., text, images, etc.) the approach allows for tagging media contents with specific labels. A preliminary experimentation conducted on a real dataset demonstrates the quality of the approach in terms of predictive accuracy.
+  }
+}
+
+
+
+
