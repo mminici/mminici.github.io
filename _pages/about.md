@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: University of Pisa and ICAR-CNR. Currently at Amazon Music, Berlin. Contact me at  [marco.minici@icar.cnr.it](mailto:marco.minici@icar.cnr.it).
+subtitle: University of Pisa and ICAR-CNR. Currently at Amazon Music, Berlin. Contact me at  marco.minici@icar.cnr.it.
 
 profile:
   align: right
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi everyone, and welcome to my website! Here you will find the most recent news about accepted papers, blog posts about research ideas, and my career.
+Hi everyone, and welcome to my website! Here you will find the most recent news about accepted papers, blog posts with research ideas, and my career.
 
 Did you ever wonder whether AI algorithms may subtly drive your behavior? Would you like to understand whether AI recommendations may harm you and your community? 
 If yes, we have something in common because my PhD's main topic is trying to answer these questions. So, briefly, I am interested in Responsible AI themes.
