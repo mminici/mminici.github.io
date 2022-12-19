@@ -45,7 +45,13 @@
       description:
         - Worked on an academic-industrial joint project. Tagging System using a multi-modal neural architecture.
         - Research paper on Imbalanced Classification, Deep Metric Learning and Explanation (ISMIS’22).
-        
+
+- title: Service
+  description:
+    - Review Committee of SAC2023 - MLA track (A- GGS rating)
+    - Web and Social Media Chair of ISMIS2022
+    - Reviewer for TKDD, KAIS journals
+
 - title: Academic Interests
   type: nested_list
   contents:
