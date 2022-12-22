@@ -47,7 +47,8 @@
         - Research paper on Imbalanced Classification, Deep Metric Learning and Explanation (ISMIS’22).
 
 - title: Service
-  description:
+  type: list
+  contents:
     - Review Committee of SAC2023 - MLA track (A- GGS rating)
     - Web and Social Media Chair of ISMIS2022
     - Reviewer for TKDD, KAIS journals
