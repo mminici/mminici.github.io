@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: Repositories
+title: repositories
 description: Here, you can find some open-source repositories of my research projects.
 nav: true
 nav_order: 3
