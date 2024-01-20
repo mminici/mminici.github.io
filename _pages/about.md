@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 Hi everyone, and welcome to my website! Here you will find the most recent news about accepted papers, blog posts with research ideas, and my career.
 
 Did you ever wonder whether AI algorithms may subtly drive your behavior? Would you like to understand whether AI recommendations may harm you and your community? 
-If so, we have something in common because my PhD's main topic is trying to answer these questions. In short, I am interested in Responsible AI themes.
+If so, we have something in common because my PhD's main topic is trying to answer these questions. Shortly, I am interested in Responsible AI themes.
 My research revolves around algorithmic biases and how the vicious loop between AI and humans may exacerbate these issues.
 I am also interested in designing actionable mitigation strategies to achieve less biased algorithms. 
 
