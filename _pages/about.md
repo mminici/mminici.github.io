@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: University of Pisa and ICAR-CNR. Previously at Scientist Intern@Amazon Music. Contact me at  marco.minici@icar.cnr.it.
+subtitle: University of Pisa and ICAR-CNR. Previously Applied Scientist Intern@Amazon Music. Contact me at  marco.minici@icar.cnr.it.
 
 profile:
   align: right
