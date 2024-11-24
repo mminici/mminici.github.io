@@ -3,8 +3,8 @@ title: 'Exposing Cross-Platform Coordinated Inauthentic Activity in the Run-Up t
 
 authors:
 
-  - Federico Cinus$^{†}$
-  - Marco Minici$^{†}$
+  - Federico Cinus*
+  - Marco Minici*
   - Luca Luceri
   - Emilio Ferrara
 

@@ -11,4 +11,3 @@ related_paper: 'Uncovering coordinated cross-platform information operations: Th
 
 
 ---
-

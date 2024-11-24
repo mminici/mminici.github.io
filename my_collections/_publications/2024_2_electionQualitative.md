@@ -3,14 +3,16 @@ title: 'Uncovering coordinated cross-platform information operations: Threatenin
 
 authors:
 
-  - Marco Minici$^{†}$
-  - Federico Cinus$^{†}$
+  - Marco Minici*
+  - Federico Cinus*
   - Luca Luceri
   - Emilio Ferrara
 
 year: 2024
 
-conf: 'First Monday <span class="badge badge-pill badge-publication badge-success">Cover</span>''
+award: Journal Cover
+
+conf: 'First Monday''
 
 links:
   - {"name": "📜 Paper", "content": "https://firstmonday.org/ojs/index.php/fm/article/view/13831/11712"}
