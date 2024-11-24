@@ -1,5 +1,5 @@
 ---
-title: 'Uncovering coordinated cross-platform information operations\: Threatening the integrity of the 2024 U.S. presidential election'
+title: 'Uncovering coordinated cross-platform information operations: Threatening the integrity of the 2024 U.S. presidential election'
 
 authors:
 
