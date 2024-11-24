@@ -1,78 +1,16 @@
 ---
 - links:
-    - { "date": "2024-09-20", "text": "📜 Two papers accepted at CSCW 2025: \"Deplatforming Norm-Violating Influencers on Social Media Reduces Overall Online Attention Toward Them\" and \"Post Guidance for Online Communities\"", "link": "https://arxiv.org/abs/2404.00750" }
-    - { "date": "2024-09-20", "text": "📜 Paper accepted at Findings of the EMNLP 2025: \"Can Language Models Recognize Convincing Arguments?\"", "links": ["https://arxiv.org/abs/2401.01253"] }
-    - {"date": "2024-06-06", "text": "🏆 Went to ICWSM, our paper (led by Peppe) won the best paper award! Hurray!", "photo": "/images/photos/icwsm_best_paper.jpg"}
-    - { "date": "2024-04-30", "text": "🎬 Gave a talk at the Social Computing Group at the University of Zürich — and took no pictures :(."}
-    - { "date": "2024-04-23", "text": "🎓 Successfully passed my thesis defense!", "photo": "/images/photos/private_defense.JPG"}
-    - { "date": "2024-03-28", "text": "🎬 Gave a virtual talk at TeDCog Lab", "link": "https://www.youtube.com/watch?v=J2XxPHxiwMU"}
-    - { "date": "2024-03-08", "text": "🎬 Gave a talk at University of Washington", "photo": "/images/photos/cornell.jpg", "link": "https://www.youtube.com/watch?v=bEjVEcpOacU"}
-    - { "date": "2024-03-04", "text": "🎬 Gave a talk at Princeton", "link": "https://www.youtube.com/watch?v=cBBuzZjZfng&t=103s"}
-    - { "date": "2024-02-28", "text": "🎬 Gave a talk at Cornell",  "photo": "/images/photos/cornell.jpg"}
-    - { "date": "2023-10-13", "text": "🤕 I hit the job market ", "link": "https://x.com/manoelribeiro/status/1712831831924457732"}
-    - { "date": "2023-06-13", "text": "☀️ This summer I'll work with Sid Suri and Teny Shapiro at Microsoft Research", "photo": "/images/photos/seattle.png"}
-    - {"date": "2023-06-07", "text": "🎬 Presented our paper on \"The Amplification Paradox in Recommender Systems\" at ICWSM! Peppe and Tiancheng also presented other work I was involved with!", "photo": "/images/photos/cyprus.png"}
-    - {"date": "2023-02-07", "text": "🎬 Presented our paper on content removals at WWW!", "link": "https://twitter.com/frapi9/status/1653450568809971730" }
-    - { "date": "2023-03-15", "text": "📜 Three papers accepted at ICWSM 2023: \"The Amplification Paradox in Recommender Systems\", \"Quotatives Indicate Decline in Objectivity in US Political News\", and \"Spillover of Antisocial Behavior from Fringe Platforms: The Unintended Consequences of Community Banning\"", "links": ["https://arxiv.org/abs/2209.09803", "https://arxiv.org/abs/2210.15476", "https://arxiv.org/abs/2302.11225"] }
-    - {"date": "2023-03-07", "text": "🏆 I am in Forbes’ 30 Under 30 Class of 2023 in Science & Healthcare (Europe)", "link": "https://www.forbes.com/30-under-30/2023/europe/science-healthcare?profile=manoel-horta-ribeiro" }
-    - {"date": "2023-02-07", "text": "🎬 Gave a talk at the Raditube Workshop at Tec de Monterrey", "link": "https://docs.google.com/document/d/1vZS1_5rOYrl9edzbHSyb-xueVPBZnSQAQJXa0QTdq6U/edit" }
-    - { "date": "2023-01-31", "text": "📜 Paper accepted at WebSci 2023: \"Understanding Online Migration Decisions Following the Banning of Radical Communities\"", "link": "https://arxiv.org/abs/2212.04765" }
-    - { "date": "2023-01-25", "text": "📜 Paper accepted at TheWebConf 2023: \"Automated Content Moderation Increases Adherence to Community Guidelines\"", "link": "https://arxiv.org/abs/2210.10454" }
-    - {"date": "2022-12-16", "text": "🏆 I have received a Teaching Assistant Award at EPFL", "photo": "/images/photos/ta-award.jpeg" }
-    - {"date": "2022-12-08", "text": "🎬 Gave a talk at the ETH Chair of Systems Design", "photo": "/images/photos/sg_ethz.jpeg" }
-    - {"date": "2022-12-07", "text": "🎬 Gave an online talk at UFMG", "photo": "/images/photos/ufmg_talk.jpeg" }
-    - { "date": "2022-07-20", "text": "🎬 Two oral presentations and two posters at IC2S2 2022!", "photo": "/images/photos/ic2s2.png" }
-    - { "date": "2022-06-15", "text": "🎬 Gave a second talk at Google Zurich", "photo": "/images/photos/zurich2.png" }
-    - {"date": "2022-06-09", "text": "🏆 I have received a Best Reviewer Award at ICWSM 2022!", "link": "https://twitter.com/icwsm/status/1535023098474516498"}
-    - {"date": "2022-06-07", "text": "🎬 Presented our paper on post approvals at ICWSM!", "link": "https://twitter.com/icwsm/status/1535023098474516498"}
-    - {"date": "2022-05-09", "text": "🎬 Gave a talk at the ETH Immigration Policy Lab", "link": "https://pp.ethz.ch/about/ipl.html#:~:text=The%20Immigration%20Policy%20Lab%2C%20with,of%20immigration%20and%20integration%20policy."}
-    - { "date": "2022-03-30", "text": "📜 Paper accepted at Websci 2022: \"Analyzing the Sleeping Giants Activism Model in Brazil\"", "link": "https://arxiv.org/abs/2105.07523" }
-    - { "date": "2022-03-18", "text": "📜 Paper accepted at CSCW 2022: \"Characterizing Alternative Monetization Strategies on YouTube\"", "link": "https://arxiv.org/abs/2203.10143" }
-    - { "date": "2022-03-30", "text": "📜 Paper accepted at ICWSM 2022: \"Post approvals in online communities\"", "link": "https://arxiv.org/abs/2203.10143" }
-    - {"date": "2021-11-02", "text": "📜 Paper out at Nature Scientific Reports: \"Volunteer contributions to Wikipedia increased during COVID-19 mobility restrictions\"",
-       "link": "https://www.nature.com/articles/s41598-021-00789-3"}
-    - {"date": "2021-10-25",  "text": "🎬 Presented our deplatforming work at CSCW ", "link":"/images/photos/cscw.png"}
-    - {"date": "2021-10-14",  "text": "🏆 \"Do Platform Migrations Compromise Content Moderation\" received a Best Paper Honorable Mention Award at CSCW 2021", "link":"https://programs.sigchi.org/cscw/2021/program/content/64052"}
-    - {"date": "2021-08-25", "text": "📜  Paper out at Nature Communications: \"Deep neural network-estimated electrocardiographic age as a mortality predictor
-\"", "link": "https://www.nature.com/articles/s41467-021-25351-7"}
-    - {"date": "2021-06-27", "text": "🎬 Presented our deplatforming and our Wikipedia + COVID-19 work at IC2S2"}
-    - {"date": "2020-02-13", "text": "🎬 Gave a talk at MILA (governance of AI discussion group)"}
-    - {"date": "2021-06-08", "text": "🎬 Presented a couple of papers at ICWSM2021 in gather.town", "photo": "/images/photos/gather_town_icwsm.png"}
-    - {"date": "2021-06-07", "text": "☀️ This summer I'll work with Justin Cheng @ Facebook"}
-    - {"date": "2021-04-23", "text": "🏆 I have received a Facebook fellowship award to continue my ongoing work on understanding and improving our information ecosystem",
-       "link":"https://research.fb.com/blog/2021/04/announcing-the-recipients-of-the-2021-facebook-fellowship-awards/"}
-    - {"date": "2021-04-13", "text": "📜 Paper accepted at WebSci 2021: \"Are Anti-Feminist Communities Gateways to the Far Right? Evidence from Reddit and YouTube", "link": "https://arxiv.org/abs/2102.12837"}
-    - {"date": "2021-03-24", "text": "📜 Paper accepted at CSCW 2021: \"Does Platform Migration Compromise Content
-    Moderation? Evidence from r/The_Donald and r/Incels\"", "link": "https://arxiv.org/abs/2010.10397" }
-    - {"date": "2021-03-19", "text": "📜 Dataset paper accepted at ICWSM 2021: \"YouNiverse: Large-Scale Channel and Video
-    Metadata from English-Speaking YouTube\"", "link": "https://arxiv.org/abs/2012.10378"}
-    - {"date": "2020-11-20", "text": "🏆 My MSc thesis was won 3rd place in the SBC (Brazilian Computing Society) Master Thesis Awards",
-       "link":"http://www2.sbc.org.br/csbc2020/ganhadores-33o-ctd-concurso-de-teses-e-dissertacoes-2/" }
-    - {"date": "2020-07-15", "text": "📜 Two papers accepted at ICWSM 2021: \"The Evolution of the Manosphere Across the Web\" and \"Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis\"", "links": ["https://arxiv.org/abs/2001.07600", "https://arxiv.org/abs/2005.08505"] }
-    - {"date": "2020-04-09", "text": "📜 Paper out at Nature Communications: \"Automatic diagnosis of the 12-lead ECG using a deep neural network\", check photo for picture of 1/4th of authors",
-       "link": "https://www.nature.com/articles/s41467-020-15432-4/", "photo": "/images/photos/very_serious_authors.jpeg"}
-    - {"date": "2020-02-13", "text": "🎬 Gave a talk at Google Zurich", "photo":  "/images/photos/google_talk.jpeg"}
-    - {"date": "2020-01-28", "text": "🎬 Presented \"Auditing Radicalization Pathways on YouTube\" at FAT*2020 in Barcelona", "link": "https://www.youtube.com/watch?v=zju-J53S4W0"}
-    - {"date": "2019-12-17",  "text": "🏆 \"Auditing Radicalization Pathways on YouTube\" was considered one of the top 100 most influential papers in 2019 (3rd in Computer Science)", "link":"https://www.altmetric.com/top100/2019/?details=65319049"}
-    - {"date": "2019-11-20", "text": "📜 Paper accepted at FAT*2020: \"Auditing Radicalization Pathways on YouTube\"", "link": "https://dl.acm.org/doi/abs/10.1145/3351095.3372879"}
-    - {"date": "2019-08-31", "text": "🎒Moved to Switzerland to do my PhD @ EPFL!", "photo": "/images/photos/epfl.jpeg"}
-    - {"date": "2019-08-13", "text": "🎓 Defended my MSc Thesis: \"Misinformation, Radicalization and Hate Through the Lens of Users\"", "photo":  "/images/photos/msc_thesis_def.jpeg"}
-    - {"date": "2019-05-19", "text": "🎬 Presented \"Message Distortion in Information Cascades\" at the TheWebConf 2019, in San Francisco",
-       "link": "/posters/www_2019.pdf", "photo": "/images/photos/www2019.jpeg" }
-    - {"date": "2019-01-21", "text": "📜 Paper accepted at TheWebConf 2019: \"Message Distortion in Information Cascades\"", "link": "https://dl.acm.org/doi/10.1145/3308558.3313531"}
-    - {"date": "2018-10-24",  "text": "🏆 Google will be sponsoring my MSc research through their Latin America Research Award", "link":"https://research.google/outreach/featured-research-collaborations/latin-america-research-awards/recipients/?category=2018",
-    "photo": "/images/photos/lara.jpeg"}
-    - {"date": "2018-07-01", "text": "☀️ This summer I'll work with Bob West at the Summer@EPFL program", "link": "https://dlab.epfl.ch/2018-11-20-summer-at-epfl-interns-2018/",
-       "photo": "/images/photos/lab_hike.jpg"}
-    - {"date": "2018-07-22", "text": "🎬 Presented \"Characterizing and Detecting Hateful Users on Twitter\" in ICWSM 2018, at Stanford",
-       "link": "https://manoelhortaribeiro.github.io/posters/icwsm_2018.pdf"}
-    - {"date": "2018-03-22", "text": "📜 Paper accepted at ICWSM 2018: \"Characterizing and Detecting Hateful Users on Twitter\"", "link": "https://arxiv.org/abs/1803.08977"}
-    - {"date": "2017-08-12", "text": "🎒 Attended the Cornell, Maryland, Max Planck Pre-doctoral Research School", "photo": "/images/photos/saarbrucken.jpeg"}
-    - {"date": "2017-08-01", "text": "🎒 Joined UFMG MSc program" }
-    - {"date": "2017-07-26",  "text": "🏆 Won Best Graduating Student Award for my BSc degree at UFMG"}
-    - {"date": "2017-07-19", "text": "🎓 Got a BSc in Computer Science from UFMG in a super formal ceremony", "photo":  "/images/photos/very_formal_ceremony.jpg"}
-
-
+    - {"date": "2024-11-04", "text": "🌟📜 Our paper \"Uncovering coordinated cross-platform information operations: Threatening the integrity of the 2024 U.S. presidential election\" is on the cover of First Monday!", "link": "https://firstmonday.org/ojs/index.php/fm/article/view/13831/11712"}
+    - {"date": "2024-10-25", "text": "🗣️ Presented our paper \"Link Polarity Prediction from Sparse and Noisy Labels via Multiscale Social Balance\" at CIKM in the lovely Boise", "photo": "/images/photos/2024_cikm.png"}
+    - {"date": "2024-10-04", "text": "🌟🗣️ Deeply honoured to have had the possibility to give a guest lecture at USC on the fascinating topic of Online Social Safety", "link": "https://drive.google.com/file/d/1zv0sPWOi528so_7P7OBXVvHoOihrqBQ1/view?usp=share_link", "photo": "/images/photos/2024_guestlecture.png"}
+    - {"date": "2024-08-19", "text": "🌴🚀 Just landed in LA to kick off my internship at USC with Emilio Ferrara and Luca Luceri"}
+    - {"date": "2024-07-29", "text": "📜 \"Balanced Quality Score (BQS): Measuring Popularity Debiasing in Recommendation\" published on ACM TIST", "link": "https://dl.acm.org/doi/full/10.1145/3650043"}
+    - {"date": "2023-05-25", "text": "🗣️ Gave a talk on our paper \"Cascade-based Echo Chamber Detection\" at the Reading Group of MILA and Vector Institute", "link": "https://www.youtube.com/watch?v=uzcE1udEpoI"}
+    - {"date": "2022-11-01", "text": "✈️ Flying to Berlin for starting my Research Internship at Amazon Music"}
+    - {"date": "2022-10-14", "text": "🗣️ Presented our paper \"Cascade-based Echo Chamber Detection\" at CIKM'22 in Atlanta"}
+    - {"date": "2022-08-01", "text": "📜 \"Cascade-based Echo Chamber Detection\" accepted at CIKM'22"}
+    - {"date": "2022-01-15", "text": "📜 \"The Effect of People Recommenders on Echo Chambers and Polarization\" accepted at ICWSM'22"}
+---
 
 
 
