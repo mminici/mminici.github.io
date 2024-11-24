@@ -12,7 +12,7 @@ year: 2024
 
 award: Journal Cover
 
-conf: 'First Monday''
+conf: 'First Monday'
 
 links:
   - {"name": "📜 Paper", "content": "https://firstmonday.org/ojs/index.php/fm/article/view/13831/11712"}
