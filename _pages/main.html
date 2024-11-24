@@ -1,0 +1,115 @@
+---
+layout: default
+title: Manoel Horta Ribeiro
+permalink: /
+---
+
+
+
+
+
+
+<div class="row col-lg-6  col-md-6 mx-auto textreg">
+<div class="col-lg-4  col-md-12" style="margin-bottom: 10px">
+        <div class=frame><img src="{{ site.avatar }}" /></div>
+</div>
+
+<div class=" col-lg-8  col-md-12 " style="margin-bottom: 10px" >
+    <div style="margin: 3px">
+<p>
+ I'm an incoming Assistant Professor at Princeton University in the <a href="https://www.cs.princeton.edu/">Department of Computer Science</a>,
+    affiliated with the <a href="https://citp.princeton.edu/">Princeton Center for Information Technology Policy (CITP)</a>.
+    Let's work together, see <a href="/advising">«Advising»</a>.
+        I received my doctoral degree in Switzerland, at EPFL’s <a href="https://dlab.epfl.ch/">DLAB</a>, working with Bob West, and my MSc and BSc in Brazil, at UFMG.
+    During my doctorate, I worked closely with several companies, including Meta, Reddit, Prolific, and Microsoft.
+
+</p>
+<p>
+I work at the intersection of computational social science, artificial intelligence, and social computing.
+    I like doing research that tackles real-world issues and provides actionable insights.
+    Ideally, these insights translate into policy and design changes.
+    My work has also received extensive media coverage, helping shape the public debate around online platforms and generative AI;
+    see <a href="/press">«Press»</a>.
+</p>
+<!--<p>-->
+<!--I received my doctoral degree in Switzerland, at EPFL’s <a href="https://dlab.epfl.ch/">DLAB</a>, working with Bob West, and my MSc and BSc in Brazil, at UFMG. During my doctorate, I worked closely with several companies, including Meta, Reddit, Prolific, and Microsoft.-->
+<!--I recently started a substack; see <a href="https://doomscrollingbabel.manoel.xyz/">«Doomscrolling Babel»</a>..-->
+<!--</p>-->
+</div>
+</div>
+
+
+</div>
+
+<div class="row col-lg-6  col-md-6 mx-auto">
+    <div class="col-lg-4  col-md-12">
+        <div class="newsbox" style="height:170px; overflow:auto; margin-bottom: 30px;">
+<div style="display: flex; justify-content: center;">
+      <img src="/images/email.png" style="width: 200px; margin-top: 30px; margin-bottom: 30px" class="center">
+</div>
+<div style="display: flex; justify-content: center;">
+
+    <ul class="nav nav-justified justify-content-center" style="font-size: 14px; width: 200px">
+      <li class="nav-item ">
+        <a class="nav-link" href="https://x.com/manoelribeiro" style="border: 0px; padding: 2px">Twitter</a>
+      </li>
+      <li class="nav-item"  style="border: 0px; padding: 0px">
+        <a class="nav-link" href="https://doomscrollingbabel.manoel.xyz/" style="border: 0px; padding: 2px">Substack</a>
+      </li>
+      <li class="nav-item"  style="border: 0px; padding: 0px">
+        <a class="nav-link" href="https://www.linkedin.com/in/manoelhortaribeiro" style="border: 0px; padding: 2px">LinkedIn</a>
+      </li>
+      <li class="nav-item"  style="border: 0px; padding: 0px">
+        <a class="nav-link" href="https://github.com/manoelhortaribeiro" style="border: 0px; padding: 2px">Github</a>
+      </li>
+      <li class="nav-item"  style="border: 0px; padding: 0px">
+        <a class="nav-link" href="https://bsky.app/profile/manoelhortaribeiro.bsky.social" style="border: 0px; padding: 2px">Bsky</a>
+      </li>
+      <li class="nav-item" style="border: 0px; padding: 0px">
+        <a class="nav-link" href="https://www.threads.net/@manoelhortaribeiro" style="border: 0px; padding: 2px">Threads</a>
+      </li>
+    </ul>
+</div>
+        </div>
+</div>
+
+
+<div class="row col-lg-8  col-md-12">
+
+
+
+    <div class="newsbox" style="height:170px; overflow:auto; margin-bottom: 30px;
+    display: inline-block; text-align: left;">
+    <table style="width: 100%">
+    {% for tmp in site.data.news %}
+    {% for entry in tmp.links %}
+
+      <tr>
+        <td style="width: 20%; min-width: 90px;" class="datev">{{ entry.date }}</td>
+          <td style="width: 70%">
+              {{entry.text}}
+              {% if entry.link %}
+              <a href="{{entry.link}}">(link)</a>
+              {% endif %}
+              {% if entry.links %}
+                    {% for l in entry.links %}
+                              <a href="{{l}}">(link)</a>
+
+                    {% endfor %}
+              {% endif %}
+            {% if entry.photo %}
+              <a href="{{entry.photo}}">(photo)</a>
+              {% endif %}
+          </td>
+<!--          <hr>-->
+      </tr>
+    {% endfor %}
+    {% endfor %}
+    </table>
+</div>
+
+
+
+
+
+</div>

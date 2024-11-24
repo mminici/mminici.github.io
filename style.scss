@@ -1,0 +1,265 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+	background: $white;
+  font: 18px/1.4 $helveticaNeue;
+  color: $darkGray;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $palatino;
+  color: $darkerGray;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: $gray;
+}
+
+.etop {
+  border-bottom: $lightGray 1px solid;
+  border-top: $lightGray 0 none;
+}
+
+.ebot {
+  border-bottom: $lightGray 0px solid;
+  border-top: $lightGray 1 none;
+}
+
+.textregv {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 15px;
+
+    th, td {
+    padding: 8px;
+      font-size: 15px;
+  //border-bottom: $lightGray 1px solid;
+  //    border-top: $lightGray 1px solid;
+  }
+
+  .linebreak {
+    border-bottom:1px solid $lightGray
+  }
+}
+
+.textreg {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 15px;
+
+
+  th, td {
+    padding: 8px;
+      font-size: 15px;
+  border-bottom: $lightGray 1px solid;
+      border-top: $lightGray 1px solid;
+  }
+
+  td:first-child {
+    min-width: 50px;
+  }
+  td:last-child {
+    word-break: break-all;
+  }
+
+  ul, ol {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+  }
+  p{
+      padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+
+  h1, h2, h3{
+    padding-top: 10px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+
+ul {
+  list-style-type: disc;
+   list-style-position: inside;
+
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+}
+
+
+td {
+  font-size: 13px;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: $blue;
+  }
+}
+
+
+
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.nav {
+  font-size: 16px;
+  font-family: $palatino;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $gray;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.newsbox {
+
+  border-top: $lightGray 1px solid;
+  border-bottom: $lightGray 1px solid;
+
+
+  .datev {
+    padding-left: 5px;
+    font-style: $palatino;
+    font-size: 12px;
+    //font-weight: bold;
+
+  }
+
+  td {
+    //font-size: 11px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
+
+  tr {
+    margin-bottom: 3px;
+    margin-top: 3px;
+  }
+
+}
+
+.frame {
+    height: 100%;      /* equals max image height */
+    width: 100%;
+
+    white-space: nowrap;
+    text-align: center;
+  img {
+    vertical-align: middle;
+    max-height: 250px;
+}
+
+}
+
+.frame:before,
+.frame_before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";

@@ -1,0 +1,104 @@
+---
+layout: page_large
+title: Press
+permalink: /press
+---
+
+
+
+
+  {% for med in site.media reversed %}
+<div class="row col-lg-12">
+<div class="col-lg-1">
+     <p>{{med.year}}</p>
+</div>
+<div class="col-lg-3">
+    <p style="text-align: right; color: #999999; font-style: italic"> {{med.venue}}</p>
+        {% if med.archive %} <p style="text-align: right;"> <a href="{{med.archive}}"> (archive) </a> </p>  {% endif %}
+
+</div>
+
+    <div class="col-lg-8">
+        <p> <a href="{{med.link}}"> {{med.title}} </a> </p>
+
+                {% if med.related_paper %}  <p> Related paper: {{med.related_paper}}  </p>  {% endif %}
+
+</div>
+
+</div>
+
+<hr/>
+{% endfor %}
+
+
+
+<!--{% for n in (2017..2025) reversed %}-->
+<!--{% for pub in site.publications reversed %}-->
+<!--{% if pub.year == n %}-->
+<!--<div class="row col-lg-12">-->
+
+
+<!--&lt;!&ndash;YEAR&ndash;&gt;-->
+<!--<div class="col-lg-1">-->
+<!--<p> {% if pub.conf != "preprint" %} {{pub.year}} {% endif %} </p>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;CONF&ndash;&gt;-->
+<!--<div class="col-lg-2">-->
+<!--<p style="text-align: right; color: #999999; font-style: italic"> {{pub.conf}}</p>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;TITLE&ndash;&gt;-->
+<!--<div class="col-lg-7">-->
+<!--<p>  {{ pub.title }}</p>-->
+
+<!--<p>-->
+<!--{% for author in pub.authors %}-->
+<!--{% if author == "Manoel Horta Ribeiro" %}-->
+<!--<b style="display: inline-block">{{ author }}</b>{% if forloop.last != true %},{% endif %}-->
+<!--{% else %}-->
+<!--{% if author == "Manoel Horta Ribeiro*" %}-->
+<!--<b style="display: inline-block">{{ author }}</b>{% if forloop.last != true %},{% endif %}-->
+<!--{% else %}-->
+<!--<span style="display: inline-block">{{ author }}</span>{% if forloop.last != true %},{% endif %}-->
+<!--{% endif %}-->
+<!--{% endif %}-->
+<!--{% endfor %}-->
+<!--</p>-->
+<!--<p style="display: block">-->
+<!--{% for link_content in pub.links %} <a href="{{link_content.content}}" style="display: inline-block"> {{link_content.name}}</a>{% if forloop.last != true %},&nbsp;{% endif %}{% endfor %}-->
+<!--</p>-->
+<!--{% assign flag = 0 %}-->
+<!--{% for med in site.media reversed %}-->
+<!--{% if pub.title == med.related_paper %}-->
+<!--    {% assign flag = 1 %}-->
+<!--{% endif %}-->
+<!--{% endfor %}-->
+
+<!--{% if flag == 1 %}-->
+<!--<p>-->
+<!--        <i>Media Coverage:</i>&nbsp;-->
+<!--{% for med in site.media reversed %}-->
+<!--{% if pub.title == med.related_paper %}-->
+<!--    <a href="{{ med.link}}" style="display: inline-block">{{ med.venue }}</a> &nbsp;-->
+<!--{% endif %}-->
+<!--{% endfor %}-->
+<!--</p>-->
+<!--{% endif %}-->
+<!--</div>-->
+
+<!--<div  class="col-lg-2  d-none d-xl-block" style="text-align:center; alignment: center">-->
+<!--<img src="{{ site.baseurl }}/images/paper_teasers/{{pub.name_file}}.png" style="display: inline-flex;  max-width: 175px; margin-bottom: 20px"/>-->
+
+<!--</div>-->
+<!--</div>-->
+
+
+<!--<hr>-->
+
+<!--{% endif %}-->
+<!--{% endfor %}-->
+<!--{% endfor %}-->
+
+
+
