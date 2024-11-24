@@ -7,13 +7,13 @@ permalink: /publications
 
 <div style="align: center; text-align: center;">
     <br>
-<p>For a complete list, check <a href="https://scholar.google.com/citations?user=IN55QyEAAAAJ&hl=en">Google Scholar</a>.</p>
+<p>For a comprehensive list, check <a href="https://scholar.google.it/citations?user=v-2peSwAAAAJ&hl=en">Google Scholar</a>.</p>
     <br>
 </div>
 
 <hr/>
 
-{% for n in (2017..2025) reversed %}
+{% for n in (2021..2025) reversed %}
 {% for pub in site.publications reversed %}
 {% if pub.year == n %}
 <div class="row col-lg-12">
@@ -35,10 +35,10 @@ permalink: /publications
 
 <p>
 {% for author in pub.authors %}
-{% if author == "Manoel Horta Ribeiro" %}
+{% if author == "Marco Minici" %}
 <b style="display: inline-block">{{ author }}</b>{% if forloop.last != true %},{% endif %}
 {% else %}
-{% if author == "Manoel Horta Ribeiro*" %}
+{% if author == "Marco Minici$^{†}$" %}
 <b style="display: inline-block">{{ author }}</b>{% if forloop.last != true %},{% endif %}
 {% else %}
 <span style="display: inline-block">{{ author }}</span>{% if forloop.last != true %},{% endif %}

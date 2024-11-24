@@ -1,5 +1,5 @@
 ---
-title: "Researchers uncover an information operation threatening the 2024 U.S. Presidential Election
+title: "Researchers uncover an information operation threatening the 2024 U.S. Presidential Election"
 
 year: 2024
 
