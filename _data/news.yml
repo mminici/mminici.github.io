@@ -8,8 +8,8 @@
     - {"date": "2023-05-25", "text": "🗣️ Gave a talk on our paper \"Cascade-based Echo Chamber Detection\" at the Reading Group of MILA and Vector Institute", "link": "https://www.youtube.com/watch?v=uzcE1udEpoI"}
     - {"date": "2022-11-01", "text": "✈️ Flying to Berlin for starting my Research Internship at Amazon Music"}
     - {"date": "2022-10-14", "text": "🗣️ Presented our paper \"Cascade-based Echo Chamber Detection\" at CIKM'22 in Atlanta"}
-    - {"date": "2022-08-01", "text": "📜 \"Cascade-based Echo Chamber Detection\" accepted at CIKM'22"}
-    - {"date": "2022-01-15", "text": "📜 \"The Effect of People Recommenders on Echo Chambers and Polarization\" accepted at ICWSM'22"}
+    - {"date": "2022-08-01", "text": "📜 \"Cascade-based Echo Chamber Detection\" accepted at CIKM'22", "link": "https://dl.acm.org/doi/abs/10.1145/3511808.3557253"}
+    - {"date": "2022-01-15", "text": "📜 \"The Effect of People Recommenders on Echo Chambers and Polarization\" accepted at ICWSM'22", "link": "https://ojs.aaai.org/index.php/ICWSM/article/view/19275"}
 ---
 
 
