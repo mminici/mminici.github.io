@@ -10,7 +10,7 @@ authors:
 
 year: 2024
 
-conf: 'preprint'
+conf: 'Preprint'
 
 links:
   - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2410.22716"}
