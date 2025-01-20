@@ -8,9 +8,9 @@ authors:
   - Luca Luceri
   - Emilio Ferrara
 
-year: 2024
+year: 2025
 
-conf: 'Preprint'
+conf: 'The Web Conference'
 
 links:
   - {"name": "📄 Pre-print", "content": "https://arxiv.org/abs/2410.22716"}
