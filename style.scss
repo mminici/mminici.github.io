@@ -247,8 +247,35 @@ img {
   img {
     vertical-align: middle;
     max-height: 250px;
+	}
 }
 
+/* Avatar image swap on hover (extends .frame) */
+.frame.avatar-swap {
+  position: relative;
+}
+
+.frame.avatar-swap img {
+  transition: opacity 0.18s ease-in-out;
+}
+
+/* Stack hover image on top */
+.frame.avatar-swap img.avatar-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;   // keeps aspect ratio within the frame
+  opacity: 0;
+}
+
+.frame.avatar-swap:hover img.avatar-hover {
+  opacity: 1;
+}
+
+.frame.avatar-swap:hover img.avatar-base {
+  opacity: 0;
 }
 
 .frame:before,
